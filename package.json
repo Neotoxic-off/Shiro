@@ -1,0 +1,26 @@
+{
+    "name": "shiro",
+    "displayName": "Shiro",
+    "description": "Shiro from no game no life to your Vscode",
+    "version": "1.0.1",
+    "icon": "img/logo.png",
+    "publisher": "Neotoxic-off",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+		"url": "https://github.com/Neotoxic-off/Shiro"
+	},
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shiro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Shiro-color-theme.json"
+            }
+        ]
+    }
+}
